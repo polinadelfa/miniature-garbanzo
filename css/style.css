@@ -1,0 +1,99 @@
+:root {
+    --font-family: "Roboto", sans-serif;
+    --second-family: "Revalia", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+}
+
+.wrapper {
+    min-height: 100%;
+}
+
+.hero {
+    background-image: url(../img/Travel\ Time.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+
+.nav__list {
+    display: flex;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 24px;
+    color: aliceblue;
+
+}
+
+.nav__item {
+    width: 1170px;
+    height: 39px;
+}
+
+.section-title {
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 96px;
+    text-align: center;
+    padding: 100px;
+}
+
+.subtitle {
+    color: aliceblue;
+    text-align: center;
+    font-weight: 275;
+    font-size: 24px;
+    text-align: center;
+}
+
+.btn-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 253px;
+}
+
+.btn {
+    box-shadow: 0 0 0 4px #fee4e2, 0 1px 2px 0;
+    background: #00b43d;
+    border-radius: 8px;
+    padding: 16px 28px;
+    width: 191px;
+    height: 60px;
+}
